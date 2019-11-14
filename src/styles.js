@@ -1,4 +1,3 @@
-// This will serve as our container’s external styles and as the global styles
 const React = require('react-native');
 const { StyleSheet } = React;
 
@@ -11,16 +10,17 @@ export default {
 
   contHistory:{
     flex: 0.35,
-    backgroundColor: 'blue',
+    borderBottomWidth: 1,
+    borderColor: '#000',
   },
 
   contOutput:{
-    flex: 0.2,
+    flex: 0.25,
   },
 
   contButtons:{
-    flex: 0.5,
-    backgroundColor: '#bdc3c7'
+    flex: 0.4,
+    backgroundColor: '#bdcdda'
   },
 
   placeHolderOutput: {
@@ -28,7 +28,8 @@ export default {
     backgroundColor: '#fff',
     justifyContent: 'center',
     alignItems: 'flex-end',
-    paddingRight: 20,
+    paddingRight: 15,
+    paddingLeft: 15
   },
 
   txtDefault: {
